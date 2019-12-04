@@ -43,12 +43,12 @@
 #ifdef SHADER_API_D3D11
 			StructuredBuffer<Particle> _Particle;
 #endif
-			int _IdOffest;
+			int _IdOffset;
             sampler2D _MainTex;
             float4 _MainTex_ST;
 
 			inline int getId(float2 uv1) {
-				return (int)(uv1.x + 0.5) + _IdOffest;
+				return (int)(uv1.x + 0.5) + _IdOffset;
 			}
 
 			float3 rotate(float3 p, float3 rot) {

@@ -295,11 +295,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4d598b79658894f831d0cc690b3a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxInstanceNum: 1
+  maxInstanceNum: 100
   mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
   shader: {fileID: 4800000, guid: 5976a247754073e43b077903a4946ce7, type: 3}
   computeShader: {fileID: 7200000, guid: 7851822528986ed4b9b10530507f9fda, type: 3}
-  range: {x: 100, y: 0, z: 100}
+  range: {x: 3, y: 0, z: 3}
 --- !u!64 &2070568451
 MeshCollider:
   m_ObjectHideFlags: 0

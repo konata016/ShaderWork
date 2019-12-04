@@ -83,7 +83,7 @@ public class CBS2 : MonoBehaviour
 
     private void OnEnable()
     {
-        numPerMesh_ = MAX_VERTEX_NUM / mesh.vertexBufferCount;
+        numPerMesh_ = MAX_VERTEX_NUM / mesh.vertexCount;
         meshNum_ = (int)Mathf.Ceil((float)maxInstanceNum / numPerMesh_);
 
         for(int i = 0; i < meshNum_; i++)
